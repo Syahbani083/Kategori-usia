@@ -14,5 +14,5 @@ def kategori_usia(usia):
 try :
 usia = int(input("Masukkan Usia Anda :"))
   print(kategori_usia(usia))
-except valueerror :
+except ValueError :
   print("masukkan angka yang valid")
